@@ -1,0 +1,48 @@
+ *{
+     font-family:serif;
+     box-sizing: border-box;
+    }
+        
+h1{
+    text-align: center;
+    color:chartreuse;
+    } 
+    @media  (min-width: 992px){
+           
+            #row div{
+                float:left; 
+            }
+            .col-lg-4{
+                width: 33%;
+                border:1px solid;
+                margin:1px;
+                background-color:azure;
+                height:500px;
+            }
+            
+            #inputtext{
+                width: 300px;
+                height: 100px;
+                padding: 5px;
+                font-size: 100%;
+            }
+            
+        #submit{
+            width:auto;
+            height: auto;
+            border:1px solid;
+            font-size: 100%;
+            background-color: #4CAF50;
+        }
+        #submit:hover{
+            background-color: white;
+            color:darkseagreen;
+        }
+        #footer{
+            text-align: center;
+            font-size: 75%;
+            background-color: black;
+            color:white;
+        }
+            
+        }
